@@ -7,3 +7,5 @@ spring:
       server:
         git:
           uri: https://github.com/nageswararao-j/spring-config-server-example.git 
+          search-paths:
+          - 'app*'
