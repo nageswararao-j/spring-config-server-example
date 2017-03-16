@@ -9,15 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @EnableConfigServer
-@RestController
 public class SpringConfigServerExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringConfigServerExampleApplication.class, args);
 	}
 	
-	@RequestMapping(value="/greeting",method=RequestMethod.GET)
-	public String getMessage(){
-		return "Hello Nages";
-	}
 }
